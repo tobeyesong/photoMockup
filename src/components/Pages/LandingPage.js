@@ -4,12 +4,12 @@
  * @format
  */
 
-import { PhoneIcon, MailIcon, SparklesIcon } from "@heroicons/react/outline";
-
 import { Link } from "react-router-dom";
 
 import Navbar from "../Navigation/Navbar";
 import Footer from "../Navigation/Footer";
+import Testimonial from "../PageSections/Testimonial";
+import ContactForm from "../PageSections/ContactForm";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -30,9 +30,8 @@ export default function Example() {
               <span className='block text-rose-600 xl:inline'>every time.</span>
             </h1>
             <p className='max-w-md mx-auto mt-3 text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl'>
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+              If you're looking for a photographer who can capture the magic of
+              your big day, look no further than Autumn Briar.
             </p>
             <div className='mt-10 sm:flex sm:justify-center lg:justify-start'>
               <div className='rounded-md shadow'>
@@ -61,160 +60,28 @@ export default function Example() {
         </div>
       </main>
       {/* //Testimonial  */}
-
-      <div className='py-16 bg-white lg:py-24'>
-        <div className='relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8'>
-          <div className='relative px-8 py-24 overflow-hidden shadow-2xl bg-rose-300 rounded-xl lg:px-16 lg:grid lg:grid-cols-2 lg:gap-x-8'>
-            <div className='absolute inset-0 opacity-50 filter saturate-0 mix-blend-multiply'>
-              <img
-                src='https://images.unsplash.com/photo-1601381718415-a05fb0a261f3?ixid=MXwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODl8fHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1216&q=80'
-                alt=''
-                className='object-cover w-full h-full'
-              />
-            </div>
-            <div className='relative lg:col-span-1'>
-              <SparklesIcon className='w-auto h-8 text-white' />
-              <blockquote className='mt-6 text-white'>
-                <p className='text-xl font-medium sm:text-2xl'>
-                  Atumn is truly an outstanding photographer (and wonderful
-                  person) with an almost mystical ability to capture the true
-                  nature of people and events. I'd recommend her to anyone!{" "}
-                </p>
-                <footer className='mt-6'>
-                  <p className='flex flex-col font-medium'>
-                    <span>Marie Chilvers</span>
-                  </p>
-                </footer>
-              </blockquote>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Testimonial
+        icon='https://media.publit.io/file/freelance/autumnbriar/icons/noun-wedding-2140227-FFFFFF.png'
+        img='https://media.publit.io/file/freelance/autumnbriar/icons/Depositphotos_81381802_S.jpg'
+        quote='Our wedding photos turned out great! Could not be happier. And the album was absolutely worth it!'
+        person='Honee Moyer'
+      />
+      <Testimonial
+        icon='https://media.publit.io/file/freelance/autumnbriar/icons/noun-rock-on-172570-FFFFFF.png'
+        img='https://media.publit.io/file/freelance/autumnbriar/icons/Depositphotos_4943034_S.jpg'
+        quote='We needed images for the band and went with Disine. Never expected a wedding photographer to pull it off, but Autumn is truly an artist.'
+        person='Thomas Sizemore'
+      />
+      <Testimonial
+        icon='https://media.publit.io/file/freelance/autumnbriar/icons/noun-family-1309536-FFFFFF.png'
+        img='https://media.publit.io/file/freelance/autumnbriar/icons/Depositphotos_29225641_S.jpg'
+        quote='I’ve had a family session with Autumn and we had such a great time, even in the rain. She made the best out of an unexpected situation and we loved the photos!'
+        person='Michael Puckett'
+      />
       {/* //Testimonial  */}
 
       {/* CONTACT  */}
-      <div className='relative bg-white'>
-        <div className='absolute inset-0'>
-          <div className='absolute inset-y-0 left-0 w-1/2 bg-gray-50' />
-        </div>
-        <div className='relative mx-auto max-w-7xl lg:grid lg:grid-cols-5'>
-          <div className='px-4 py-16 bg-gray-50 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12'>
-            <div className='max-w-lg mx-auto'>
-              <h2 className='text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl'>
-                Get in touch
-              </h2>
-              <p className='mt-3 text-lg leading-6 text-gray-500'>
-                Nullam risus blandit ac aliquam justo ipsum. Quam mauris
-                volutpat massa dictumst amet. Sapien tortor lacus arcu.
-              </p>
-              <dl className='mt-8 text-base text-gray-500'>
-                <div>
-                  <dt className='sr-only'>Postal address</dt>
-                  <dd>
-                    <p>742 Evergreen Terrace</p>
-                    <p>Springfield, OR 12345</p>
-                  </dd>
-                </div>
-                <div className='mt-6'>
-                  <dt className='sr-only'>Phone number</dt>
-                  <dd className='flex'>
-                    <PhoneIcon
-                      className='flex-shrink-0 w-6 h-6 text-gray-400'
-                      aria-hidden='true'
-                    />
-                    <span className='ml-3'>+1 (555) 123-4567</span>
-                  </dd>
-                </div>
-                <div className='mt-3'>
-                  <dt className='sr-only'>Email</dt>
-                  <dd className='flex'>
-                    <MailIcon
-                      className='flex-shrink-0 w-6 h-6 text-gray-400'
-                      aria-hidden='true'
-                    />
-                    <span className='ml-3'>support@example.com</span>
-                  </dd>
-                </div>
-              </dl>
-              <p className='mt-6 text-base text-gray-500'>
-                Looking for careers?{" "}
-                <a href='#' className='font-medium text-gray-700 underline'>
-                  View all job openings
-                </a>
-                .
-              </p>
-            </div>
-          </div>
-          <div className='px-4 py-16 bg-white sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12'>
-            <div className='max-w-lg mx-auto lg:max-w-none'>
-              <form
-                action='#'
-                method='POST'
-                className='grid grid-cols-1 gap-y-6'>
-                <div>
-                  <label htmlFor='full-name' className='sr-only'>
-                    Full name
-                  </label>
-                  <input
-                    type='text'
-                    name='full-name'
-                    id='full-name'
-                    autoComplete='name'
-                    className='block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-rose-500 focus:border-rose-500'
-                    placeholder='Full name'
-                  />
-                </div>
-                <div>
-                  <label htmlFor='email' className='sr-only'>
-                    Email
-                  </label>
-                  <input
-                    id='email'
-                    name='email'
-                    type='email'
-                    autoComplete='email'
-                    className='block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-rose-500 focus:border-rose-500'
-                    placeholder='Email'
-                  />
-                </div>
-                <div>
-                  <label htmlFor='phone' className='sr-only'>
-                    Phone
-                  </label>
-                  <input
-                    type='text'
-                    name='phone'
-                    id='phone'
-                    autoComplete='tel'
-                    className='block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-rose-500 focus:border-rose-500'
-                    placeholder='Phone'
-                  />
-                </div>
-                <div>
-                  <label htmlFor='message' className='sr-only'>
-                    Message
-                  </label>
-                  <textarea
-                    id='message'
-                    name='message'
-                    rows={4}
-                    className='block w-full px-4 py-3 placeholder-gray-500 border border-gray-300 rounded-md shadow-sm focus:ring-rose-500 focus:border-rose-500'
-                    placeholder='Message'
-                    defaultValue={""}
-                  />
-                </div>
-                <div>
-                  <button
-                    type='submit'
-                    className='inline-flex justify-center px-6 py-3 text-base font-medium text-white border border-transparent rounded-md shadow-sm bg-rose-600 hover:bg-rose-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-500'>
-                    Submit
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
+      <ContactForm />
       {/* CONTACT  */}
 
       <Footer />
