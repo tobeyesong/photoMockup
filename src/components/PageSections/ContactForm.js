@@ -78,10 +78,10 @@ export default function ContactForm() {
               render={({ handleSubmit, submitError }) => (
                 <form
                   onSubmit={handleSubmit}
-                  name='contactAutumn'
+                  name='contact'
                   method='POST'
                   data-netlify='true'>
-                  <input type='hidden' name='form-name' value='contactAutumn' />
+                  <input type='hidden' name='form-name' value='contact' />
                   <div className='mt-6 space-y-8 rounded-b-md sm:space-y-5'>
                     <div>
                       <div className=''>
