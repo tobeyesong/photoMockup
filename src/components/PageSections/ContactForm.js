@@ -78,7 +78,7 @@ export default function ContactForm() {
               render={({ handleSubmit, submitError }) => (
                 <form
                   onSubmit={handleSubmit}
-                  name='contact'
+                  name='contactAutumn'
                   method='POST'
                   data-netlify='true'>
                   <input type='hidden' name='form-name' value='contactAutumn' />
