@@ -314,13 +314,13 @@ export default function Example() {
           </div>
           <Testimonial
             icon='https://media.publit.io/file/freelance/autumnbriar/icons/noun-wedding-2140227-FFFFFF.png'
-            img='https://st.depositphotos.com/1610052/3264/i/950/depositphotos_32649507-stock-photo-wedding-landscape.jpg'
+            img='https://media.publit.io/file/freelance/autumnbriar/icons/Depositphotos_32649507_S.jpg'
             quote='I felt so insecure about myself but wanted to give my fiancé a special album too. Autumn was amazing to work with and even helped my self-confidence. We loved the wedding photos and the bridal boudoir shots!'
             person='Toni Rivera'
           />
           <Testimonial
             icon='https://media.publit.io/file/freelance/autumnbriar/icons/noun-aspect-ratio-4810599-FFFFFF.png'
-            img='https://st3.depositphotos.com/1017950/35341/i/1600/depositphotos_353419712-stock-photo-casual-portrait-beautifu-blond-young.jpg'
+            img='https://media.publit.io/file/freelance/autumnbriar/icons/Depositphotos_353419712_S.jpg'
             quote='I am so in love with the photos from Disine!'
             person='Jessie Lee'
           />
