@@ -35,11 +35,11 @@ export default function Example() {
             </p>
             <div className='mt-10 sm:flex sm:justify-center lg:justify-start'>
               <div className='rounded-md shadow'>
-                <Link
-                  to='/contact'
+                <a
+                  href='#contact'
                   className='flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white border border-transparent rounded-md bg-rose-600 hover:bg-rose-700 md:py-4 md:text-lg md:px-10'>
                   Contact Me
-                </Link>
+                </a>
               </div>
               <div className='mt-3 rounded-md shadow sm:mt-0 sm:ml-3'>
                 <Link
@@ -54,7 +54,7 @@ export default function Example() {
         <div className='relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full'>
           <img
             className='absolute inset-0 object-cover w-full h-full'
-            src='https://images.unsplash.com/photo-1582994254571-52c62d96ebab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
+            src='https://media.publit.io/file/freelance/autumnbriar/icons/IMG_1586-2.png'
             alt=''
           />
         </div>
@@ -81,7 +81,7 @@ export default function Example() {
       {/* //Testimonial  */}
 
       {/* CONTACT  */}
-      <ContactForm />
+      <ContactForm id='contact' />
       {/* CONTACT  */}
 
       <Footer />

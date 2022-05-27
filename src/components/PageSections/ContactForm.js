@@ -29,7 +29,7 @@ export default function ContactForm() {
       .catch((error) => alert(error));
   };
   return (
-    <div className='relative bg-white'>
+    <div className='relative bg-white scroll-smoothly' id='contact'>
       <div className='absolute inset-0'>
         <div className='absolute inset-y-0 left-0 w-1/2 bg-gray-50' />
       </div>

@@ -312,18 +312,7 @@ export default function Example() {
               </div>
             ))}
           </div>
-          <Testimonial
-            icon='https://media.publit.io/file/freelance/autumnbriar/icons/noun-wedding-2140227-FFFFFF.png'
-            img='https://media.publit.io/file/freelance/autumnbriar/icons/Depositphotos_32649507_S.jpg'
-            quote='I felt so insecure about myself but wanted to give my fiancé a special album too. Autumn was amazing to work with and even helped my self-confidence. We loved the wedding photos and the bridal boudoir shots!'
-            person='Toni Rivera'
-          />
-          <Testimonial
-            icon='https://media.publit.io/file/freelance/autumnbriar/icons/noun-aspect-ratio-4810599-FFFFFF.png'
-            img='https://media.publit.io/file/freelance/autumnbriar/icons/Depositphotos_353419712_S.jpg'
-            quote='I am so in love with the photos from Disine!'
-            person='Jessie Lee'
-          />
+
           {/* //SECOND TIERS */}
           <div className='mx-auto mb-12 max-w-7xl sm:px-6 lg:px-8'>
             <div className='p-4 mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-4'>
@@ -364,6 +353,19 @@ export default function Example() {
               ))}
             </div>
           </div>
+
+          <Testimonial
+            icon='https://media.publit.io/file/freelance/autumnbriar/icons/noun-wedding-2140227-FFFFFF.png'
+            img='https://media.publit.io/file/freelance/autumnbriar/icons/Depositphotos_32649507_S.jpg'
+            quote='I felt so insecure about myself but wanted to give my fiancé a special album too. Autumn was amazing to work with and even helped my self-confidence. We loved the wedding photos and the bridal boudoir shots!'
+            person='Toni Rivera'
+          />
+          <Testimonial
+            icon='https://media.publit.io/file/freelance/autumnbriar/icons/noun-aspect-ratio-4810599-FFFFFF.png'
+            img='https://media.publit.io/file/freelance/autumnbriar/icons/Depositphotos_353419712_S.jpg'
+            quote='I am so in love with the photos from Disine!'
+            person='Jessie Lee'
+          />
         </section>
       </main>
       <ContactForm />
