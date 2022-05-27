@@ -56,10 +56,10 @@ export default function Navbar() {
           <div className='flex items-center justify-between py-4 md:justify-start md:space-x-10'>
             <div className='flex justify-start lg:w-0 lg:flex-1'>
               <Link to='/'>
-                <span className='sr-only'>Workflow</span>
+                <span className='sr-only'>Disine</span>
                 <img
                   className='w-auto h-8 lg:h-14 sm:h-10'
-                  src='https://media.publit.io/file/noun_Lens_2200376.png'
+                  src='https://media.publit.io/file/freelance/autumnbriar/icons/image1-4.jpeg'
                   alt=''
                 />
               </Link>
@@ -107,8 +107,8 @@ export default function Navbar() {
                   <div>
                     <img
                       className='w-auto h-8'
-                      src='https://media.publit.io/file/noun_Lens_2200376.png'
-                      alt='Workflow'
+                      src='https://media.publit.io/file/freelance/autumnbriar/icons/image1-4.jpeg'
+                      alt='Disine'
                     />
                   </div>
                   <div className='-mr-2'>

@@ -231,7 +231,7 @@ export default function Example() {
         </div>
         <div className='max-w-4xl px-4 mx-auto sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8'>
           <div className='relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24'>
-            <h2 className='text-sm font-semibold tracking-wide uppercase text-rose-300'>
+            <h2 className='text-sm font-semibold tracking-wide uppercase text-amber-300'>
               Quick Disclaimer
             </h2>
             <p className='mt-3 text-3xl font-bold text-white'>
@@ -301,7 +301,7 @@ export default function Example() {
                     {tier.features.map((feature) => (
                       <li key={feature} className='flex'>
                         <CheckIcon
-                          className='flex-shrink-0 w-6 h-6 text-rose-500'
+                          className='flex-shrink-0 w-6 h-6 text-amber-500'
                           aria-hidden='true'
                         />
                         <span className='ml-3 text-gray-500'>{feature}</span>
@@ -339,7 +339,7 @@ export default function Example() {
                       {tier.features.map((feature) => (
                         <li key={feature} className='flex space-x-3'>
                           <CheckIcon
-                            className='flex-shrink-0 w-5 h-5 text-red-500'
+                            className='flex-shrink-0 w-5 h-5 text-amber-500'
                             aria-hidden='true'
                           />
                           <span className='text-sm text-gray-500'>

@@ -28,17 +28,17 @@ export default function Example() {
             aria-hidden='true'>
             <img
               className='absolute transform translate-x-32 top-12 left-full'
-              src='https://media.publit.io/file/noun_grid_3355318.png'
+              src='https://media.publit.io/file/freelance/autumnbriar/icons/noun-pattern-2177729-A49284.png'
               alt=''
             />
             <img
               className='absolute transform -translate-x-32 -translate-y-1/2 top-1/2 right-full'
-              src='https://media.publit.io/file/noun_grid_3355318.png'
+              src='https://media.publit.io/file/freelance/autumnbriar/icons/noun-pattern-2177729-A49284.png'
               alt=''
             />{" "}
             <img
               className='absolute transform translate-x-32 bottom-12 left-full'
-              src='https://media.publit.io/file/noun_grid_3355318.png'
+              src='https://media.publit.io/file/freelance/autumnbriar/icons/noun-pattern-2177729-A49284.png'
               alt=''
             />
           </div>
@@ -95,7 +95,6 @@ export default function Example() {
                 width={1310}
                 height={873}
               />
-              <figcaption>Me and Ariel</figcaption>
             </figure>
 
             <p>
@@ -103,8 +102,8 @@ export default function Example() {
               traveling with Bird to sites unseen (or to local libraries and
               coffee shops). You could say I dabble in graphic design,
               illustrations, and art. If you're extra curious about that facet
-              of my life, I have a website dedicated to those endeavors. (create
-              hyper link to site over “website”).
+              of my life, I have a website dedicated to those endeavors{" "}
+              <a href='http://abriar.com/'>here</a> .
             </p>
 
             <figure>

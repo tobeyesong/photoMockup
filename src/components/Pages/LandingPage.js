@@ -17,48 +17,47 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <div className='relative bg-gray-50'>
+    <div className='relative'>
       <Navbar />
-      <main className='lg:relative'>
-        <div className='w-full h-auto pt-16 pb-20 mx-auto text-center md:h-screen lg:h-screen max-w-7xl lg:py-48 lg:text-left'>
-          <div className='px-4 lg:w-1/2 sm:px-8 xl:pr-16'>
-            <h1 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl'>
-              <span className='block xl:inline'>
-                {" "}
-                Get the perfect portrait—
-              </span>{" "}
-              <span className='block text-rose-600 xl:inline'>every time.</span>
-            </h1>
-            <p className='max-w-md mx-auto mt-3 text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl'>
-              If you're looking for a photographer who can capture the magic of
-              your big day, look no further than Autumn Briar.
-            </p>
-            <div className='mt-10 sm:flex sm:justify-center lg:justify-start'>
-              <div className='rounded-md shadow'>
-                <a
-                  href='#contact'
-                  className='flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white border border-transparent rounded-md bg-rose-600 hover:bg-rose-700 md:py-4 md:text-lg md:px-10'>
-                  Contact Me
-                </a>
-              </div>
-              <div className='mt-3 rounded-md shadow sm:mt-0 sm:ml-3'>
-                <Link
-                  to='gallery'
-                  className='flex items-center justify-center w-full px-8 py-3 text-base font-medium bg-white border border-transparent rounded-md text-rose-600 hover:bg-gray-50 md:py-4 md:text-lg md:px-10'>
-                  View Gallery
-                </Link>
+      {/* <div className='relative mt-1'>
+        <div className='mx-auto max-w-7xl sm:px-6 lg:px-8'>
+          <div className='relative shadow-xl sm:rounded-2xl '>
+            <div className='relative px-4 py-16 bg-center bg-contain lg:bg-cover sm:px-6 sm:py-24 lg:py-32 lg:px-8 bg-hero-pattern'></div>
+          </div>
+        </div>
+      </div> */}
+      <div className='relative mt-5'>
+        <div className='mx-auto max-w-7xl sm:px-6 lg:px-8'>
+          <div className='relative shadow-xl sm:rounded-2xl sm:overflow-hidden'>
+            <div className='absolute inset-0'>
+              <img
+                className='object-cover w-full h-full'
+                src='https://media.publit.io/file/freelance/autumnbriar/icons/IMG_1586-2.png'
+                alt='People working on laptops'
+              />
+            </div>
+            <div className='relative invisible px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8'>
+              <h1 className='text-4xl font-extrabold tracking-tight text-center sm:text-5xl lg:text-6xl'></h1>
+              <p className='max-w-lg mx-auto mt-6 text-xl text-center text-indigo-200 sm:max-w-3xl'></p>
+              <div className='max-w-sm mx-auto mt-10 sm:max-w-none sm:flex sm:justify-center lg:p-16 md:p-10'>
+                <div className='space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5'>
+                  <a
+                    href='#'
+                    className='flex items-center justify-center px-4 py-3 text-base font-medium text-indigo-700 bg-white border border-transparent rounded-md shadow-sm hover:bg-indigo-50 sm:px-8'>
+                    Get started
+                  </a>
+                  <a
+                    href='#'
+                    className='flex items-center justify-center px-4 py-3 text-base font-medium text-white bg-indigo-500 border border-transparent rounded-md shadow-sm bg-opacity-60 hover:bg-opacity-70 sm:px-8'>
+                    Live demo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className='relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full'>
-          <img
-            className='absolute inset-0 object-cover w-full h-full'
-            src='https://media.publit.io/file/freelance/autumnbriar/icons/IMG_1586-2.png'
-            alt=''
-          />
-        </div>
-      </main>
+      </div>
+
       {/* //Testimonial  */}
       <Testimonial
         icon='https://media.publit.io/file/freelance/autumnbriar/icons/noun-wedding-2140227-FFFFFF.png'
@@ -81,7 +80,7 @@ export default function Example() {
       {/* //Testimonial  */}
 
       {/* CONTACT  */}
-      <ContactForm id='contact' />
+      <ContactForm />
       {/* CONTACT  */}
 
       <Footer />
