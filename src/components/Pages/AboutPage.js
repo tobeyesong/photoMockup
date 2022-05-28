@@ -63,7 +63,7 @@ export default function Example() {
                 <blockquote className='mt-8'>
                   <div className='relative text-lg font-medium text-white md:flex-grow'>
                     <svg
-                      className='absolute top-0 left-0 w-4 h-4 text-red-500 transform -translate-x-3 -translate-y-2'
+                      className='absolute top-0 left-0 w-4 h-4 transform -translate-x-3 -translate-y-2 text-amber-500'
                       fill='currentColor'
                       viewBox='0 0 32 32'
                       aria-hidden='true'>

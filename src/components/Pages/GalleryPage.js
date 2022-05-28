@@ -63,7 +63,7 @@ export default function Example() {
         <div className='bg-white'>
           <div className='px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-12'>
             <div className='space-y-12'>
-              <div className='p-4 space-y-5 rounded-md bg-slate-600 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none'>
+              <div className='p-4 space-y-5 rounded-md bg-gradient-to-r from-amber-700/70 via-amber-700/60 to-yellow-900/70 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none'>
                 <h2 className='text-xl font-semibold leading-7 tracking-tight sm:text-2xl text-slate-50'>
                   Gallery
                 </h2>

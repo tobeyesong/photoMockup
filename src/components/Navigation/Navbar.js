@@ -59,7 +59,7 @@ export default function Navbar() {
                 <span className='sr-only'>Disine</span>
                 <img
                   className='w-auto h-8 lg:h-14 sm:h-10'
-                  src='https://media.publit.io/file/freelance/autumnbriar/icons/image1-4.jpeg'
+                  src='https://media.publit.io/file/freelance/autumnbriar/icons/noun-camera-947699-A49284.png'
                   alt=''
                 />
               </Link>
@@ -107,7 +107,7 @@ export default function Navbar() {
                   <div>
                     <img
                       className='w-auto h-8'
-                      src='https://media.publit.io/file/freelance/autumnbriar/icons/image1-4.jpeg'
+                      src='https://media.publit.io/file/freelance/autumnbriar/icons/noun-camera-947699-A49284.png'
                       alt='Disine'
                     />
                   </div>
